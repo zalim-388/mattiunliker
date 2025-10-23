@@ -1,38 +1,15 @@
 name: mattiunliker
 description: "A new Flutter project."
-# The following line prevents the package from being accidentally published to
-# pub.dev using `flutter pub publish`. This is preferred for private packages.
-publish_to: "none" # Remove this line if you wish to publish to pub.dev
+publish_to: "none"
 
-# The following defines the version and build number for your application.
-# A version number is three numbers separated by dots, like 1.2.43
-# followed by an optional build number separated by a +.
-# Both the version and the builder number may be overridden in flutter
-# build by specifying --build-name and --build-number, respectively.
-# In Android, build-name is used as versionName while build-number used as versionCode.
-# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
-# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
-# Read more about iOS versioning at
-# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
-# In Windows, build-name is used as the major, minor, and patch parts
-# of the product and file versions while build-number is used as the build suffix.
 version: 1.0.0+1
 
 environment:
   sdk: ">=3.4.3 <4.0.0"
 
-# Dependencies specify other packages that your package needs in order to work.
-# To automatically upgrade your package dependencies to the latest versions
-# consider running `flutter pub upgrade --major-versions`. Alternatively,
-# dependencies can be manually updated by changing the version numbers below to
-# the latest version available on pub.dev. To see which dependencies have newer
-# versions available, run `flutter pub outdated`.
 dependencies:
   flutter:
     sdk: flutter
-
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.6
   flashy_tab_bar2: ^0.0.10
   sliding_clipped_nav_bar: ^3.1.1
@@ -40,156 +17,19 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
-  # The "flutter_lints" package below contains a set of recommended lints to
-  # encourage good coding practices. The lint set provided by the package is
-  # activated in the `analysis_options.yaml` file located at the root of your
-  # package. See that file for information about deactivating specific lint
-  # rules and activating additional ones.
   flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.14.4
 
-# For information on the generic Dart part of this file, see the
-# following page: https://dart.dev/tools/pub/pubspec
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "images/mattiunliker.png"
 
-# The following section is specific to Flutter packages.
 flutter:
-  # The following line ensures that the Material Icons font is
-  # included with your application, so that you can use the icons in
-  # the material Icons class.
   uses-material-design: true
-
-  # To add assets to your application, add an assets section, like this:
   assets:
     - images/frist.png
     - images/Social -uihut.png
     - images/Group 370.png
     - images/Ellipse 307.png
-    - images/Group 31.png
-    - images/Group 26.png
-    - images/Group 27.png
-    - images/Group 28.png
-    - images/Group 30.png
-    - images/Rectangle 1092.png
-    - images/Rectangle 1092 (1).png
-    - images/Rectangle 1093.png
-    - images/Ellipse 308 (1).png
-    - images/Rectangle 1094.png
-    - images/Rectangle 1092 (2).png
-    - images/Group 341.png
-    - images/Voice.png
-    - images/Path.png
-    - images/camera 01.png
-    - images/microphone.png
-    - images/files (1).png
-    - images/Rectangle 1067.png
-    - images/Rectangle 1068.png
-    - images/Ellipse 387.png
-    - images/Ellipse 304.png
-    - images/Ellipse 386.png
-    - images/Ellipse 319.png
-    - images/Ellipse 304 (1).png
-    - images/Rectangle 1131.png
-    - images/Voice (1).png
-    - images/Ellipse 307 (1).png
-    - images/gift-removebg-preview 1.png
-    - images/download-removebg-preview (31) 1.png
-    - images/istockphoto-1314193409-612x612-removebg-preview 1.png
-    - images/istockphoto-1314193409-612x612-removebg-preview 2.png
-    - images/istockphoto-1314193409-612x612-removebg-preview 3.png
-    - images/istockphoto-1314193409-612x612-removebg-preview 4.png
-    - images/istockphoto-1314193409-612x612-removebg-preview 5.png
-    - images/image 6.png
-    - images/image 9.png
-    - images/image 7.png
-    - images/images-preview.png
-    - images/images-removebg 2.png
-    - images/images-removebg- 3.png
-    - images/images-removebg- 4.png
-    - images/fffff-removebg-preview 1 (1).png
-    - images/fffff-removebg-preview 1.png
-    - images/Rectangle 46.png
-    - images/Mask group.png
-    - images/image 8.png
-    - images/image 7 (1).png
-    - images/image 5.png
-    - images/image 6 (1).png
-    - images/image 8 (1).png
-    - images/Rectangle 8.png
-    - images/image 9 (1).png
-    - images/Group 46.png
-    - images/Ellipse 44.png
-    - images/Ellipse 38.png
-    - images/Ellipse 38 (2).png
-    - images/images-removebg-preview (15) 1.png
-    - images/images-removebg-preview (15) 2.png
-    - images/download-removebg-preview (20) 2.png
-    - images/Ellipse 48.png
-    - images/download (22) 2.png
-    - images/Ellipse 311.png
-    - images/image 40 (1) 1.png
-    - images/Rectangle 1087.png
-    - images/Rectangle 1110.png
-    - images/Ellipse 424.png
-    - images/Ellipse 411.png
-    - images/Group 379.png
-    - images/Add-uihut.png
-    - images/Ellipse 412.png
-    - images/Ellipse 413.png
-    - images/Ellipse 414.png
-    - images/Ellipse 307 (1).png
-    - images/Ellipse 428.png
-    - images/Group 393 (1).png
-    - images/Rectangle 1154.png
-    - images/Rectangle 1155.png
-    - images/Group 430.png
-    - images/Group 484.png
-    - images/Rectangle 1161 (1).png
-    - images/Ellipse 1207.png
-    - images/Ellipse 1211.png
-    - images/Ellipse 1212.png
-    - images/Rectangle 1169.png
-    - images/Ellipse 1213.png
-    - images/Rectangle 1170.png  
-    - images/Rectangle 1169 (1).png  
-    - images/Rectangle 1170 (1).png
-    - images/Rectangle 1169 (2).png
-    - images/Rectangle 1170 (2).png
-    - images/Rectangle 1169 (3).png
-    - images/Rectangle 1170 (3).png
-    - images/Ellipse 1211 (1).png
-    - images/Ellipse 1212 (1).png
-    - images/Ellipse 1212 (2).png
-    - images/Ellipse 1212 (3).png
-    - images/Ellipse 1212 (4).png
-    - images/Ellipse 1212 (5).png
-    - images/Ellipse 1212 (6).png
-    - images/Ellipse 1212 (7).png
-    - images/Ellipse 1212 (8).png
-    - images/Ellipse 1212 (9).png
-    
-
-  # An image asset can refer to one or more resolution-specific "variants", see
-  # https://flutter.dev/assets-and-images/#resolution-aware
-
-  # For details regarding adding assets from package dependencies, see
-  # https://flutter.dev/assets-and-images/#from-packages
-
-  # To add custom fonts to your application, add a fonts section here,
-  # in this "flutter" section. Each entry in this list should have a
-  # "family" key with the font family name, and a "fonts" key with a
-  # list giving the asset and other descriptors for the font. For
-  # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
-  #       - asset: fonts/TrajanPro_Bold.ttf
-  #         weight: 700
-  #
-  # For details regarding fonts from package dependencies,
-  # see https://flutter.dev/custom-fonts/#from-packages
+    # ... (rest of your image list)
