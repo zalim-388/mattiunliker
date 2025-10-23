@@ -10,11 +10,7 @@ Built using Flutter’s powerful widget system for fast performance and responsi
 
 ✨ Features
 
-✅ 100% Flutter UI Design
-✅ Smooth Animations & Transitions
-✅ Responsive Layout (Supports All Screen Sizes)
-✅ Clean and Modern User Interface
-✅ Easy to Customize & Extend
+ 100% Flutter UI Design
 
 📲 Download the App
 
